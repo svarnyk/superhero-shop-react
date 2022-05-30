@@ -1,0 +1,18 @@
+.button{
+  color: #fff;
+  background: black;
+  position: relative;
+}
+
+.button_big{
+  font-size: 20px;
+}
+
+.button a{
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
