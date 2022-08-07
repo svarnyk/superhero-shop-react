@@ -1,18 +1,38 @@
 .button{
-  color: #fff;
-  background: black;
-  position: relative;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  background-color: black;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
 }
 
 .button_big{
   font-size: 20px;
 }
-
-.button a{
-  display: block;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
+.button_red{
+  background-color: red;
+  font-weight: bold;
 }
+.button_red:hover{
+  background-color: #ce131a;
+}
+.button_red:active{
+  background-color: red;
+}
+.button_white{
+  background-color: white;
+  font-weight: bold;
+  color: black;
+}
+.button_white:hover{
+  background-color: #c2bcbc;
+}
+.button_white:active{
+  background-color: white;
+}
+

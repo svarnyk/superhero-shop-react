@@ -1,0 +1,21 @@
+.findForm__container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.findForm__input{
+  width: 100%;
+  height: calc(1rem + 17px);
+  padding-left: 11px;
+  margin: 0;
+  font-size: 12px;
+  border-radius: 17px;
+  border: none;
+}
+.findForm__input:focus{
+  outline: none;
+}
+.findForm__button {
+  position: relative;
+  right: 25px;
+}

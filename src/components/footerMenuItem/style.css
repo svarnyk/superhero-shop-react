@@ -1,0 +1,8 @@
+.footer-menu__item{
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+}
+.footer-menu__item_bold{
+  font-weight: bold;
+}

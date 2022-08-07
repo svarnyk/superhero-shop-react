@@ -1,0 +1,12 @@
+.buttonSlider{
+  width: 9px;
+  height: 9px;
+  border-radius: 4px;
+}
+.buttonSlider_1{
+  background-color: #C01918;
+}
+.buttonSlider_2, .buttonSlider_3, .buttonSlider_4, .buttonSlider_5{
+  background-color: #CD6F6E;
+  cursor: pointer;
+}

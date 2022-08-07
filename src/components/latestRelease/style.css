@@ -1,0 +1,23 @@
+.latestRelease{
+  max-width: 100%;
+  min-height: 677px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.latestRelease__header{
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  padding-bottom: 62px;
+}
+.latestRelease__stack{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 48px;
+}

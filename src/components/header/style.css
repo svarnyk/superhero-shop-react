@@ -1,0 +1,76 @@
+.header{
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 59px;
+  position: sticky;
+  background: black;
+  top: 0;
+  z-index: 999;
+}
+.header__buttonStack{
+  width: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 600px){
+  .header__buttonStack {
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    top: 59px;
+    background-color: black;
+  }
+}
+.header__button{
+  width: 66px;
+  height: 28px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.header__userCtrl-connect{
+  border: 1px solid white;
+  background-color: black;
+  width: 250px;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header__userCtrl__cart{
+  /*border: 1px white solid;*/
+  width: 24px;
+  height: 24px;
+  margin-right: 15px;
+  display: flex;
+  /*align-items: center;*/
+  justify-content: flex-end;
+  cursor: pointer;
+}
+.header__userCtrl__userPic-connect{
+  margin-right: 8px;
+  cursor: pointer;
+}
+.header__userCtrl__chevron{
+  margin-right: 17px;
+}
+.header__userCtrl__quantityOfGoods{
+  background-color: #C01918;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 9px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,10 @@
+.buttonFind{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #EE171F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

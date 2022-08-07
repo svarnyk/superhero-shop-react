@@ -1,0 +1,63 @@
+.hero__container{
+  width: 100%;
+  height: 496px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-size: 14px;
+  /*flex-wrap: wrap;*/
+}
+.hero__background{
+  width: 100%;
+  height: 496px;
+  position: absolute;
+  z-index: -5;
+}
+.hero__backgroundShadow{
+  width: 100%;
+  height: 496px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(6px);
+}
+.hero__backgroundImage{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero__leftSide{
+  margin: 50px;
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.hero__heading{
+  font-size: 48px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.hero__greeting{}
+.hero__findForm{
+  width: 223px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+.hero__quote{
+  font-size: 24px;
+  font-style: italic;
+}
+.hero__authorOfQuote{}
+.hero__rightSide{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero__sliderButtonsStack{
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 9px;
+}

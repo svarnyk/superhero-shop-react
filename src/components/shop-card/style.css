@@ -1,0 +1,95 @@
+.shop-card{
+  width: 232px;
+  height: 396px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.shop-card:hover .shop-card-name{
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+.shop-card:hover .shop-card-name__comicsName{
+  color: white;
+}
+.shop-card:hover .shop-card-name__collectionName{
+  color: #B6B6B6;
+}
+.shop-card:hover .shop-card-price{
+  margin-bottom: 30px;
+  margin-right: 5px;
+}
+.shop-card:hover .shop-card-properties{
+  visibility: visible;
+  height: 165px;
+}
+.shop-card-poster{
+  width: 232px;
+  height: 352px;
+}
+.poster-image{
+  width: 100%;
+  height: 100%;
+}
+.poster-image__pic{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 35px;
+}
+.shop-card-description{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+.shop-card-name{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  transition: all 0.5s ease-in;
+}
+.shop-card-name__comicsName{
+  font-size: 14px;
+  font-weight: bold;
+  transition: color 1s;
+  z-index: 1;
+}
+.shop-card-name__collectionName{
+  font-size: 12px;
+  color: #474747;
+  transition: color 1s;
+  z-index: 1;
+}
+.shop-card-price{
+  color: #EE171F;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.4s ease-in;
+  z-index: 1;
+}
+.shop-card-properties{
+  background: linear-gradient(transparent -80%, #262525 70%);
+  position: absolute;
+  bottom: -10px;
+  left: -10px;
+  width: 226px;
+  height: 0;
+  border-radius: 5px;
+  transition: all 0.5s ease-in;
+  visibility: hidden;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 19px 12px 13px;
+}
+.shop-card-properties__description{
+  color: white;
+  font-size: 12px;
+}
+.shop-card-properties__button{
+  width: 93px;
+  height: 20px;
+}

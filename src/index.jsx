@@ -1,8 +1,9 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-import {IndexPage, UserProfilePage} from './pages';
+import './reset.css';
+import './style.css';
+import {ComicsDetail, IndexPage, UserProfilePage} from './pages';
 
 const rootElement = document.createElement('div');
 document.body.append(rootElement);
@@ -18,6 +19,7 @@ const app = createRoot(rootElement);
 app.render(
 <BrowserRouter>
   <Routes>
+    <Route path="detail" element={<ComicsDetail />} />
     <Route path="about" element={<UserProfilePage />} />
     <Route path="*" element={<IndexPage />} />
   </Routes>

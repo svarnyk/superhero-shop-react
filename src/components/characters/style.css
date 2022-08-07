@@ -1,0 +1,23 @@
+.characters{
+  max-width: 100%;
+  min-height: 507px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.characters__header{
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  padding-bottom: 62px;
+}
+.characters__stack{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}

@@ -1,0 +1,42 @@
+.colorCard__month{
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+.colorCard__description{
+  position: absolute;
+  display: flex;
+  border-radius: 10px;
+  width: 319px;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+  gap: 78px;
+  padding-top: 135px;
+}
+.colorCard__poster{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.colorCard__background{
+  position: absolute;
+  border-radius: 10px;
+  width: 319px;
+  height: 199px;
+}
+.colorCard__background_red{
+  background: linear-gradient(transparent 10%, red 100%), linear-gradient(transparent 10%, #000000 90%);
+}
+.colorCard__background_blue{
+  background: linear-gradient(transparent 10%, blue 100%), linear-gradient(transparent 10%, #000000 90%);
+}
+.colorCard__background_green{
+  background: linear-gradient(transparent 10%, green 100%), linear-gradient(transparent 10%, #000000 90%);
+}
+.colorCard__item{
+  width: 319px;
+  height: 199px;
+  display: flex;
+}

@@ -1,0 +1,16 @@
+.calendar{
+  max-width: 100%;
+  min-height: 326px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 61px;
+  margin-bottom: 30px;
+}
+.calendar__header{
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  padding-bottom: 62px;
+}

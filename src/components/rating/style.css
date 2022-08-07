@@ -1,0 +1,16 @@
+.rating{
+  width: 71px;
+  height: 39px;
+  background-color: white;
+  border-top-right-radius: 20px 20px;
+  position: relative;
+  bottom: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+.rating__text{
+  font-size: 18px;
+  font-weight: bold;
+}
